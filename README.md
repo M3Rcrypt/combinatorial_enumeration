@@ -7,6 +7,6 @@ The graph enumeration problem of counting directed acyclic graphs was studied by
 
 These numbers may be computed by the recurrence relation 
 
-![image](https://github.com/M3Rcrypt/combinatorial_enumeration/assets/88895789/610c5bed-a75f-4b72-b29c-3fb6ed9bd923)
+![image](https://github.com/M3Rcrypt/combinatorial_enumeration/acyclic.svg)
 
 Eric W. Weisstein conjectured, and McKay et al. (2004) proved, that the same numbers count the (0,1) matrices for which all eigenvalues are positive real numbers. The proof is bijective: a matrix A is an adjacency matrix of a DAG if and only if A + I is a (0,1) matrix with all eigenvalues positive, where I denotes the identity matrix. Because a DAG cannot have self-loops, its adjacency matrix must have a zero diagonal, so adding I preserves the property that all matrix coefficients are 0 or 1. (Wikipedia) 
